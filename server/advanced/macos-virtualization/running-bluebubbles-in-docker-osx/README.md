@@ -62,7 +62,8 @@ docker run \
   -e WIDTH=1920 \
   -e HEIGHT=1080 \
   -e GENERATE_UNIQUE=true \
-  sickcodes/docker-osx:ventura
+  -e SHORTNAME=ventura \
+  sickcodes/docker-osx:latest
 ```
 
 This will take a while because it's downloading the image for Docker-OSX and generating a unique serial number and bootdisk for your mac VM.
